@@ -1,0 +1,53 @@
+/* Fix collapsing navbar in Bootstrap 4.0.0 alpha 6 */
+@media (max-width: 576px){
+    .navbar-toggleable-sm > .container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.navbar-inverse .navbar-toggler {
+    border-color: rgba(255, 255, 255, .5);
+}
+
+.hr-inverse {
+    border-top: 1px solid rgba(255, 255, 255, .5);
+}
+
+body {
+    position: relative;
+}
+
+/* Enable transitions, fix position for mobile phones */
+#navbar {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    position: fixed !important;
+}
+
+/* Enable transitions */
+#navbar .navbar-brand {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+
+/* Enable transitions, align to right */
+#navbar .navbar-toggler-right {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    right: 0px;
+}
+
+#navbar.not-scrolled {
+    background-color: transparent;
+}
+
+#navbar.not-scrolled.expanded, #navbar.scrolled {
+    background-color: #0277bd;
+}

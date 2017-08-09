@@ -1,0 +1,13 @@
+# www.humanstxt.org
+
+# Author
+Developer: Egor Makarenko
+Twitter: @egormkn
+From: Tyumen, Russia
+
+# Technologies
+Last update: 09.08.2017
+Language: English, Russian
+Standards: HTML5, CSS3
+Components: jQuery, Bootstrap, jQuery.scrollTo, FontAwesome
+Software: Notepad++, Emmet plugin, FileZilla, Grav CMS, Photoshop
